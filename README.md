@@ -12,4 +12,5 @@ npm start
 # Build for prod
 npm run build
 ```
+Enter the Url : http://luv-kush.s3-website.eu-north-1.amazonaws.com 
 
