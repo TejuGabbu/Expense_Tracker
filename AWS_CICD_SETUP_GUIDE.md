@@ -193,6 +193,7 @@ If you want GitHub to deploy directly to S3 without using CodePipeline:
 
 | Issue | Cause | Solution |
 | :--- | :--- | :--- |
+| **AccountLimitExceededException: Cannot have more than 0 builds in queue** | AWS CodeBuild default concurrency is 0 on new/free-tier accounts | Request a quota increase in **AWS Service Quotas** for CodeBuild (or use **Method C: GitHub Actions** to deploy directly to S3 without CodeBuild). |
 | **403 Forbidden on website** | S3 bucket permissions | Ensure "Block all public access" is OFF and the bucket policy from Step 1.3 is applied. |
 | **Build fails on CodeBuild** | Missing dependencies or Node flag | `buildspec.yml` is preconfigured with `npm ci --legacy-peer-deps` and `CI=false` to avoid build failure on warnings. |
 | **Only a .zip appears in S3** | Extract setting not enabled | In CodePipeline Deploy stage, ensure the checkbox **"Extract file before deploy"** is enabled. |
