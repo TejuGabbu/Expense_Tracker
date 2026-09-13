@@ -13,7 +13,7 @@ npm start
 npm run build
 ```
 ## Live Demo & AWS Hosting
-- **Live S3 Website URL**: [http://luv-kush.s3-website.eu-north-1.amazonaws.com](http://luv-kush.s3-website.eu-north-1.amazonaws.com)
+- **Live S3 Website URL**: http://vaanar-sena.s3-website.ap-south-1.amazonaws.com
 
 ## AWS CI/CD Pipeline
 This project is equipped with automated CI/CD for AWS:
