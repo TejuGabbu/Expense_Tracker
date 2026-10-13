@@ -36,7 +36,7 @@ function App() {
         </main>
 
         <footer className="app-footer">
-          <p>FinFlow Smart Finance Dashboard • Powered by React & Modern CSS</p>
+          <p>Shantanu Smart Finance Dashboard • Powered by React & Modern CSS</p>
         </footer>
 
         {/* Global Modals */}
