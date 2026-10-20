@@ -45,7 +45,7 @@ export const Header = () => {
         </div>
         <div className="brand-info">
           <div className="brand-title-wrap">
-            <h1 className="brand-name">Shantanu</h1>
+            <h1 className="brand-name">Fin-Flow</h1>
             <span className="brand-badge">PRO</span>
           </div>
           <p className="brand-subtitle">Smart Finance & Expense Tracker</p>
